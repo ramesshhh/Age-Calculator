@@ -2,7 +2,7 @@ let navbar = document.querySelector('nav');
 let menuLinks = document.getElementById('menu-links');
 
 function toggleMenu(){
-    menuLinks.classList.toggle
+    menuLinks.classList.toggle('show-menu');
 }
 
 window.onscroll = function(){
