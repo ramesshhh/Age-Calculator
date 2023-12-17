@@ -1960,7 +1960,7 @@ section.home-slider .container>.row {
     border-radius: 5px;
 }
 .box-main img{
-    float: right;
+    display: inline-block;
 }
 .box-main-1{
     padding: 27px;
@@ -1998,4 +1998,18 @@ section.home-slider .container>.row {
     color: #fff;
     border-radius: 5px;
     padding: 25px 200px 238px 35px;
+}
+.box-color{
+    border: 2px solid black;
+    padding: 20px;
+}
+.box-color img{
+    width: 74px;
+}
+.box-color-green{
+    border: 2px solid green;
+    padding: 20px;
+}
+.box-color-green img{
+    width: 74px;
 }
