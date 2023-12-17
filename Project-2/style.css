@@ -1962,3 +1962,40 @@ section.home-slider .container>.row {
 .box-main img{
     float: right;
 }
+.box-main-1{
+    padding: 27px;
+    margin-top: 5px;
+}
+.box-main-2{
+    padding: 27px;
+    margin-top: 5px;
+}
+.box-main-3{
+    padding: 27px;
+    margin-top: 20px;
+}
+.box-main-4{
+    padding: 27px;
+    margin-top: 20px;
+}
+.wrapper.transfer h4 {
+    color: #3ab24a;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px 77px 10px 0px;
+}
+.clearfix p{
+    padding: 0px 58px 10px 0px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.75rem;
+}
+.wrapper.transfer {
+    background: url(/wp-content/uploads/sites/11/2023/03/transferImgBlue.jpeg),url(/wp-content/uploads/sites/11/2023/03/startsGreen.png);
+    background-color: #142351;
+    background-repeat: no-repeat;
+    background-position: right 100px top 118px,top 12px left 380px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 25px 200px 238px 35px;
+}
