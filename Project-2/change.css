@@ -14,7 +14,7 @@
 }
 
 .yellow-arrow{
-    color: yellow;
+    color: #fbe02c;
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,800&display=swap');
@@ -1136,13 +1136,15 @@ section.intro.transferDomain {
     filter: alpha(opacity=50);
 }
 .wrapper.transfer {
+        background: url(/wp-content/uploads/sites/11/2023/03/transferImgBlue.jpeg),url(/wp-content/uploads/sites/11/2023/03/startsGreen.png);
     background: url(/wp-content/uploads/sites/11/2023/03/transferImgBlue.jpeg),url(/wp-content/uploads/sites/11/2023/03/startsGreen.png);
     background-color: #142351;
     background-repeat: no-repeat;
-    background-position:right 100px top -8px,top -15px left 380px;
+    background-position: right 0 bottom 0,top -12px right 50px;
     color: #fff;
     border-radius: 5px;
-    padding: 25px 200px 30px 35px;
+    padding: 60px;
+    min-height: 450px;
 }
 .text-blue {
     color: #1d6cb0 !important;
@@ -1151,6 +1153,7 @@ section.intro.transferDomain {
 	color: #3ab24a;
 	font-size: 20px;
 	margin-bottom: 20px;
+	font-family: poppins,sans-serif !important;
 }
 .sslProducts {
 	margin-bottom: 70px !important;
@@ -1879,14 +1882,19 @@ section.home-slider .container>.row {
 /* New code */
 
 .yellow-arrow{
-    color: yellow;
-    font-size: 18px;
-    font-weight: 600;
+    color: #fbe02c;
+    font-size: 17px;
+    font-weight: 700;
+	  margin-bottom: 10px;
+}
+.yellow-arrow .fa-solid{
+	font-size: 15px;
+  margin-right: 10px;
 }
 
 .moneyback-emplum{
     position: relative;
-    top: 40%;
+    top: 15%;
 }
 /* .save50{
     color: green;
@@ -2015,22 +2023,33 @@ section.home-slider .container>.row {
     color: #3ab24a;
     font-size: 30px;
     margin-bottom: 20px;
-    padding: 10px 77px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
-.clearfix p{
-    padding: 0px 58px 10px 0px;
+.wrapper.transfer .clearfix p{
+    padding: 0px 58px 30px 0px;
     font-size: 20px;
     font-weight: 200;
     line-height: 1.75rem;
+}
+.wrapper.transfer .btn-primary.red{
+	font-size: 20px;
+	height: 50px;
+	padding: 8px 20px;
 }
 .wrapper.transfer {
     background: url(/wp-content/uploads/sites/11/2023/03/transferImgBlue.jpeg),url(/wp-content/uploads/sites/11/2023/03/startsGreen.png);
     background-color: #142351;
     background-repeat: no-repeat;
-    background-position: right 100px top 118px,top 12px left 380px;
+    background-position: right 0 bottom 0,top -12px right 50px;
     color: #fff;
     border-radius: 5px;
-    padding: 25px 200px 238px 35px;
+    padding: 60px;
+    min-height: 450px;
+}
+.wrapper.tier.transfer p {
+    font-size: 20px;
+    line-height: 160%;
+    padding: 0px 120px 20px 0px;
 }
 .box-color{
     border: 2px solid black;
@@ -2057,10 +2076,46 @@ section.home-slider .container>.row {
 .intro.wp-Header{
     background: #181818 url(/wp-content/uploads/sites/58/2023/12/banner.png) no-repeat right top;
     margin: 0px 0px;
-    padding: 30px 0px 50px 0px;
+    padding: 50px 0px 30px 0px;
 }
 .intro.wp-Header .h1 {
     margin-top: 50px;
+}
+.box-main h3.h1-box {
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 50px;
+    position: relative;
+	margin-bottom: 0px;
+	min-height: 45px;
+}
+.box-main  p {
+    font-size: 13px !important;
+    margin-bottom: 0px !important;
+    line-height: 160%;
+    font-weight: 400;
+}
+.box-main.box-main-4.special {
+    border-color: #3AB24B;
+}
+.box-main.box-main-4.special h3.h1-box img {
+    right: -10px;
+    top: -10px;
+}
+.box-main.box-main-4.special h4 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: poppins,sans-serif !important;
+    margin: 0px 0px 10px 0px!important;
+}
+.box-main h3.h1-box small {
+    font-weight: 300;
+    font-size: 11px;
+}
+.box-main h3.h1-box img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .save50 {
     background: #fbe02c;
