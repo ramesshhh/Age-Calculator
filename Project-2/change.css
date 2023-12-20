@@ -2148,3 +2148,9 @@ h3{
     position: relative;
     top: -16px;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+      font-size: 14px;
+    }
+  }
